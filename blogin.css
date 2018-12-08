@@ -1,0 +1,47 @@
+#main_{
+	position : absolute;
+	left : 20px;
+	right : 20px;
+	background-color : rgb(255,153,51);
+	border-radius : 5px;
+	padding : 10px;
+}
+
+#menu_b{
+	float : left;
+	height : 200px;
+	width : 200px;
+	border : 0px;
+	background-color : white;
+	transition-duration : 0.5s;
+}
+#menu_b:hover{
+	background-color : rgb(255, 102, 0);
+}
+
+textarea[name=isi]{
+	resize : none;
+	width : 60%;
+	height : 50%;
+}
+
+#b_wide{
+	width : 100%;
+	height : 50px;
+	border : 0px;
+	background-color : white;
+	transition-duration : 0.5s;
+}
+#b_wide:hover{
+	background-color : rgb(255, 102, 0);
+}
+
+#con_sel{
+	width : 100%;
+	height : 25px;
+	background-color : rgb(200,200,200);
+}
+
+#delb{
+	float : right;
+}
